@@ -1,0 +1,38 @@
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.form-control{
+    width: 100px;
+}
+.table{
+    margin-top: 80px;
+    
+    justify-content: center;
+    margin-left: 490px;
+    margin-right: 470px;
+    width: 350px;
+    
+}
+tr {
+    height: 110px;
+    width:200px;
+}
+
+.cell {
+    border: 1px solid black;
+    width: 50px;
+
+}
+
+/** 
+aside{
+    background-image: url("https://www.iea.org/media/news/2017/170901CommentaryEnergyBalances.jpg"); 
+} */
